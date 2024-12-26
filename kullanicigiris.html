@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giriş Yap-Kayıt Ol</title>
+    <title>BOB|Giriş Yap-Kayıt Ol</title>
     <link rel="icon" href="images/logo.jpg" />
     <style>
       body {
@@ -66,11 +66,14 @@
         border-color: #007bff;
       }
 
+      .login-container .anasayfa {
+        color: #fff;
+      }
+
       .login-container button {
         padding: 10px;
         font-size: 16px;
-        background-color: #000000;
-        color: #fff;
+        background-color: rgb(0, 0, 0);
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -109,8 +112,10 @@
             required
           />
           <input type="password" name="password" placeholder="Şifre" required />
-          <button type="submit">Giriş Yap</button>
         </form>
+        <button type="submit">
+          <a class="anasayfa" href="index.html">Giris Yap</a>
+        </button>
         <p>Hesabınız yok mu? <a href="/register">Kayıt Ol</a></p>
       </div>
     </div>
